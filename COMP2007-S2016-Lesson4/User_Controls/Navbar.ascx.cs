@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ *@author: Yandong Wang
+ *@date: June 5, 2016
+ *@version: 0.0.2 - updated SetActivePage Method to include new links
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -36,14 +43,14 @@ namespace COMP2007_S2016_Lesson4
                 case "Home Page":
                     home.Attributes.Add("class", "active");
                     break;
-                case "Products":
-                    products.Attributes.Add("class", "active");
+                case "Students":
+                    students.Attributes.Add("class", "active");
                     break;
-                case "Services":
-                    services.Attributes.Add("class", "active");
+                case "Courses":
+                    courses.Attributes.Add("class", "active");
                     break;
-                case "About":
-                    about.Attributes.Add("class", "active");
+                case "Departments":
+                    departments.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");

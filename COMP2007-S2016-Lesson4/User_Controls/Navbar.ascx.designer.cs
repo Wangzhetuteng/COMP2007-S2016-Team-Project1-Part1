@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP2007_S2016_Lesson4
-{
-
-
-    public partial class Navbar
-    {
-
+namespace COMP2007_S2016_Lesson4 {
+    
+    
+    public partial class Navbar {
+        
         /// <summary>
         /// home control.
         /// </summary>
@@ -22,34 +20,34 @@ namespace COMP2007_S2016_Lesson4
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
-
+        
         /// <summary>
-        /// products control.
+        /// students control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl products;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl students;
+        
         /// <summary>
-        /// services control.
+        /// courses control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl services;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl courses;
+        
         /// <summary>
-        /// about control.
+        /// departments control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
-
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl departments;
+        
         /// <summary>
         /// contact control.
         /// </summary>
