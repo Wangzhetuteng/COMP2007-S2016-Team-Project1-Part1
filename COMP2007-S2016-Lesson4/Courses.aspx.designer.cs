@@ -11,7 +11,7 @@ namespace COMP2007_S2016_Lesson4
 {
 
 
-    public partial class Products
+    public partial class Courses
     {
     }
 }

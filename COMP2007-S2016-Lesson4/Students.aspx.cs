@@ -13,7 +13,7 @@ using System.Web.ModelBinding;
 
 namespace COMP2007_S2016_Lesson4
 {
-    public partial class About1 : System.Web.UI.Page
+    public partial class Students : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

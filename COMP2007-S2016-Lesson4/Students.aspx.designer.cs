@@ -10,7 +10,8 @@
 namespace COMP2007_S2016_Lesson4 {
     
     
-    public partial class About1 {
+    public partial class Students
+    {
         
         /// <summary>
         /// StudentsGridView control.
