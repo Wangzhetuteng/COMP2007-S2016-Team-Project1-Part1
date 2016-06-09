@@ -44,10 +44,10 @@ namespace COMP2007_S2016_Lesson4
                     home.Attributes.Add("class", "active");
                     break;
                 case "Game":
-                    game.Attributes.Add("class", "active");
+                    students.Attributes.Add("class", "active");
                     break;
                 case "Team":
-                    team.Attributes.Add("class", "active");
+                    courses.Attributes.Add("class", "active");
                     break;
                 case "Departments":
                     departments.Attributes.Add("class", "active");
