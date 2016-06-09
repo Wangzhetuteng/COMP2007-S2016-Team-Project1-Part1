@@ -6,9 +6,10 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 /**
-  * @author: Yandong Wang
-  * @date: May 26, 2016
-  * @version： 0.01
+  * @author: Yandong Wang 200277628, Zhen Zhang 200257444
+  * @date: June 8, 2016
+  * @version： 0.0.1
+  * @file description: create a web app that show the Game	statistics
   */
 
 namespace COMP2007_S2016_Lesson4

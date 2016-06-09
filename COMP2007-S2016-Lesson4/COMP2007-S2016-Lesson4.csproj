@@ -168,8 +168,8 @@
       <DependentUpon>ContosoModel.edmx</DependentUpon>
       <LastGenOutput>ContosoModel.cs</LastGenOutput>
     </Content>
-    <Content Include="StudentDetails.aspx" />
-    <Content Include="Students.aspx" />
+    <Content Include="GameDetails.aspx" />
+    <Content Include="Game.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
@@ -212,7 +212,7 @@
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="User_Controls\Jumbotron.ascx" />
     <Content Include="User_Controls\Navbar.ascx" />
-    <Content Include="Courses.aspx" />
+    <Content Include="Team.aspx" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -406,19 +406,19 @@
     <Compile Include="Models\Student.cs">
       <DependentUpon>ContosoModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="StudentDetails.aspx.cs">
-      <DependentUpon>StudentDetails.aspx</DependentUpon>
+    <Compile Include="GameDetails.aspx.cs">
+      <DependentUpon>GameDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="StudentDetails.aspx.designer.cs">
-      <DependentUpon>StudentDetails.aspx</DependentUpon>
+    <Compile Include="GameDetails.aspx.designer.cs">
+      <DependentUpon>GameDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Students.aspx.cs">
-      <DependentUpon>Students.aspx</DependentUpon>
+    <Compile Include="Game.aspx.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Students.aspx.designer.cs">
-      <DependentUpon>Students.aspx</DependentUpon>
+    <Compile Include="Game.aspx.designer.cs">
+      <DependentUpon>Game.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -448,12 +448,12 @@
     <Compile Include="User_Controls\Navbar.ascx.designer.cs">
       <DependentUpon>Navbar.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Courses.aspx.cs">
-      <DependentUpon>Courses.aspx</DependentUpon>
+    <Compile Include="Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Courses.aspx.designer.cs">
-      <DependentUpon>Courses.aspx</DependentUpon>
+    <Compile Include="Team.aspx.designer.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Departments.aspx.cs">

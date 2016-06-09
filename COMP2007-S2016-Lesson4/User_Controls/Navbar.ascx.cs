@@ -43,11 +43,11 @@ namespace COMP2007_S2016_Lesson4
                 case "Home Page":
                     home.Attributes.Add("class", "active");
                     break;
-                case "Students":
-                    students.Attributes.Add("class", "active");
+                case "Game":
+                    game.Attributes.Add("class", "active");
                     break;
-                case "Courses":
-                    courses.Attributes.Add("class", "active");
+                case "Team":
+                    team.Attributes.Add("class", "active");
                     break;
                 case "Departments":
                     departments.Attributes.Add("class", "active");

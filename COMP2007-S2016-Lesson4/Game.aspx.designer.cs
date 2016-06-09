@@ -10,8 +10,7 @@
 namespace COMP2007_S2016_Lesson4 {
     
     
-    public partial class Students
-    {
+    public partial class Game {
         
         /// <summary>
         /// StudentsGridView control.
@@ -20,6 +19,6 @@ namespace COMP2007_S2016_Lesson4 {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView StudentsGridView;
+        //protected global::System.Web.UI.WebControls.GridView StudentsGridView;
     }
 }

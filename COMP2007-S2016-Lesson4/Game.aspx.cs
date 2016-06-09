@@ -13,7 +13,7 @@ using System.Web.ModelBinding;
 
 namespace COMP2007_S2016_Lesson4
 {
-    public partial class Students : System.Web.UI.Page
+    public partial class Game : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -42,8 +42,8 @@ namespace COMP2007_S2016_Lesson4
                 var Students = (from allStudents in db.Students
                                 select allStudents);
                 //bind the result to the GridView
-                StudentsGridView.DataSource = Students.ToList();
-                StudentsGridView.DataBind();
+                //StudentsGridView.DataSource = Students.ToList();
+                //StudentsGridView.DataBind();
 
             }
         }

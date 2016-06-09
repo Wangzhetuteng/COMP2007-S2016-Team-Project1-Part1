@@ -10,43 +10,52 @@
 namespace COMP2007_S2016_Lesson4 {
     
     
-    public partial class StudentDetails {
+    public partial class GameDetails {
         
         /// <summary>
-        /// LastNameTextBox control.
+        /// NameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LastNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox NameTextBox;
         
         /// <summary>
-        /// FirstNameTextBox control.
+        /// DescriptionTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
+        protected global::System.Web.UI.WebControls.TextBox DescriptionTextBox;
         
         /// <summary>
-        /// EnrollmentDateTextBox control.
+        /// TotalPointsScoredTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EnrollmentDateTextBox;
+        protected global::System.Web.UI.WebControls.TextBox TotalPointsScoredTextBox;
         
         /// <summary>
-        /// RangeValidator1 control.
+        /// NumberofSpectatorsTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        protected global::System.Web.UI.WebControls.TextBox NumberofSpectatorsTextBox;
+        
+        /// <summary>
+        /// WinningTeamTextBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox WinningTeamTextBox;
         
         /// <summary>
         /// CancelButton control.
